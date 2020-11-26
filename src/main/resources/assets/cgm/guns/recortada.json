@@ -1,0 +1,49 @@
+{
+    "id": "shotgun",
+    "general": {
+        "rate": 20,
+        "gripType": "two_handed",
+        "maxAmmo": 2,
+        "recoilKick": 0.9,
+        "recoilAngle": 16.0,
+        "projectileAmount": 16,
+        "alwaysSpread": true,
+        "spread": 15.0
+    },
+    "projectile": {
+        "item": "cgm:shell",
+        "visible": false,
+        "damage": 15.0,
+        "size": 1.0,
+        "speed": 10.0,
+        "life": 3,
+        "gravity": false,
+        "damageReduceOverLife": true,
+        "damageReduceIfNotZoomed": true
+    },
+    "sounds": {
+        "fire": "cgm:shotgun_fire",
+        "reload": "cgm:pistol_reload",
+        "cock": "cgm:shotgun_fire",
+        "silencedFire": "cgm:shotgun_fire_silenced"
+    },
+    "display": {
+        "flash": {
+            "yOffset": -4.2,
+            "zOffset": -9.0
+        }
+    },
+    "modules": {
+        "zoom": {
+            "fovModifier": 0.7,
+            "yOffset": 4.9,
+            "zOffset": -1.0
+        },
+        "attachments": {
+            "scope": {
+                "yOffset": 3.4,
+                "zOffset": 3.0
+            }
+            }
+        }
+}

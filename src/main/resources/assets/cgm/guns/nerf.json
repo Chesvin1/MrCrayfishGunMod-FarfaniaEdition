@@ -1,0 +1,39 @@
+{
+    "id": "nerf",
+    "general": {
+        "auto": true,
+        "rate": 4,
+        "gripType": "two_handed",
+        "maxAmmo": 30,
+        "reloadSpeed": 3,
+        "recoilKick": 0.25
+    },
+    "projectile": {
+        "item": "cgm:bala_goma",
+        "visible": true,
+        "damage": 0.5,
+        "size": 0.2,
+        "speed": 1.5,
+        "life": 200,
+        "gravity": true
+    },
+    "sounds": {
+        "fire": "cgm:nerf_fire",
+        "reload": "cgm:nerf_reload",
+        "cock": "cgm:nerf_reload",
+        "silencedFire": "cgm:nerf_fire"
+    },
+    "modules": {
+        "zoom": {
+            "fovModifier": 0.6,
+            "yOffset": 4.9,
+            "zOffset": -3.2
+        },
+        "attachments": {
+            "scope": {
+                "yOffset": 4.32,
+                "zOffset": 4
+            }
+        }
+    }
+}
