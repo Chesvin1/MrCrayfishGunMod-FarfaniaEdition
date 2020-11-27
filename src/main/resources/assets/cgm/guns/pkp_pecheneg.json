@@ -7,10 +7,9 @@
         "maxAmmo": 75,
         "recoilKick": 0.35,
         "recoilAngle": 3.0,
-        "reloadSpeed": 2,
-        "recoilDurationOffset": 0.10,
-        "alwaysSpread": true,
-        "spread": 2.0
+        "reloadSpeed": 3,
+        "recoilDurationOffset": 0.20,
+        "spread": 3.0
     },
     "projectile": {
         "item": "cgm:advanced_ammo",
@@ -30,7 +29,7 @@
     },
     "display": {
         "flash": {
-            "yOffset": -3.8,
+            "yOffset": -4,
             "zOffset": -13
         }
     },
@@ -41,14 +40,9 @@
             "zOffset": -3.2
         },
         "attachments": {
-            "scope": {
-                "smooth": true,
-                "yOffset": 3.9,
-                "zOffset": 1
-            },
             "barrel": {
                 "yOffset": 3.26,
-                "zOffset": -10  ,
+                "zOffset": -10,
                 "scale": 0.23
             }
         }

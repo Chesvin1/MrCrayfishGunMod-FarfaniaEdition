@@ -5,9 +5,9 @@
         "rate": 2,
         "gripType": "two_handed",
         "maxAmmo": 45,
-        "reloadSpeed": 4,
+        "reloadSpeed": 6,
         "recoilKick": 0.30,
-        "spread": 4.0,
+        "spread": 3.0,
         "recoilAngle": 1.5,
         "recoilDurationOffset": 0.10
     },
@@ -27,24 +27,20 @@
     },
     "display": {
         "flash": {
-            "yOffset": -4.5,
-            "zOffset": -6
+            "yOffset": -2,
+            "zOffset": -16
         }
     },
     "modules": {
         "zoom": {
             "fovModifier": 0.6,
-            "yOffset": 4.9,
-            "zOffset": -9
+            "yOffset": 8.8,
+            "zOffset": -5
         },
         "attachments": {
-            "scope": {
-                "yOffset": 6.9,
-                "zOffset": -5
-            },
             "barrel": {
-                "yOffset": 3.5,
-                "zOffset": -5.25,
+                "yOffset": 6.5,
+                "zOffset": -13,
                 "scale": 0.4
             }
         }
