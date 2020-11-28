@@ -42,8 +42,14 @@ public class ModGuns
     @GameRegistry.ObjectHolder("cgm:recortada")
     public static final Item RECORTADA = null;
 
+    @GameRegistry.ObjectHolder("cgm:ak47")
+    public static final Item AK47 = null;
+
     @GameRegistry.ObjectHolder("cgm:nerf")
     public static final Item NERF = null;
+
+    @GameRegistry.ObjectHolder("cgm:desert_eagle")
+    public static final Item DESERT_EAGLE = null;
 
     @GameRegistry.ObjectHolder("cgm:part")
     public static final Item PARTS = null;
@@ -89,6 +95,8 @@ public class ModGuns
         register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "pkp_pecheneg")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
         register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "recortada")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
         register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "nerf")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
+        register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "ak47")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
+        register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "desert_eagle")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
 
         register(new ItemAmmo(new ResourceLocation(Reference.MOD_ID, "basic_ammo")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
         register(new ItemAmmo(new ResourceLocation(Reference.MOD_ID, "advanced_ammo")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));

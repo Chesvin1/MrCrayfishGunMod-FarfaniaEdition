@@ -16,11 +16,13 @@ public class ModCrafting
     public static void register()
     {
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.PISTOL),
-                new ItemStack(Blocks.IRON_BLOCK, 4));
+                new ItemStack(Blocks.IRON_BLOCK, 2));
+        WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.DESERT_EAGLE),
+                new ItemStack(Blocks.IRON_BLOCK, 2));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.MACHINE_PISTOL),
-                new ItemStack(Blocks.IRON_BLOCK, 5));
+                new ItemStack(Blocks.IRON_BLOCK, 3));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.SHOTGUN),
-                new ItemStack(Blocks.IRON_BLOCK, 6));
+                new ItemStack(Blocks.IRON_BLOCK, 5));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.RIFLE),
                 new ItemStack(Blocks.IRON_BLOCK, 7),
                 new ItemStack(Items.DIAMOND, 1));
@@ -28,20 +30,22 @@ public class ModCrafting
                 new ItemStack(Blocks.IRON_BLOCK, 8),
                 new ItemStack(Items.REDSTONE, 8 ));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.CHAIN_GUN),
-                new ItemStack(Blocks.IRON_BLOCK, 18),
+                new ItemStack(Blocks.IRON_BLOCK, 24),
                 new ItemStack(Blocks.REDSTONE_BLOCK, 3));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.ASSAULT_RIFLE),
                 new ItemStack(Blocks.IRON_BLOCK, 7));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.PNOVENTA),
                 new ItemStack(Blocks.IRON_BLOCK, 7));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.PKP_PECHENEG),
-                new ItemStack(Blocks.IRON_BLOCK, 9));
+                new ItemStack(Blocks.IRON_BLOCK, 12));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.RECORTADA),
-                new ItemStack(Blocks.IRON_BLOCK, 7));
+                new ItemStack(Blocks.IRON_BLOCK, 6));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.NERF),
                 new ItemStack(Blocks.CONCRETE, 10),
                 new ItemStack(Items.DYE, 4, EnumDyeColor.ORANGE.getDyeDamage()),
                 new ItemStack(Items.DYE, 4, EnumDyeColor.YELLOW.getDyeDamage()));
+        WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.AK47),
+                new ItemStack(Blocks.IRON_BLOCK, 6));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.BASIC_AMMO, 32),
                 new ItemStack(Items.GUNPOWDER, 1),
                 new ItemStack(Items.IRON_INGOT, 3));
