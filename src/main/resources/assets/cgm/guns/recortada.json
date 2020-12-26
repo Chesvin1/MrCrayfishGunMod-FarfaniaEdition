@@ -1,5 +1,5 @@
 {
-    "id": "shotgun",
+    "id": "recortada",
     "general": {
         "rate": 20,
         "gripType": "two_handed",
@@ -22,7 +22,7 @@
         "damageReduceIfNotZoomed": true
     },
     "sounds": {
-        "fire": "cgm:shotgun_fire",
+        "fire": "cgm:recortada_fire",
         "reload": "cgm:pistol_reload",
         "cock": "cgm:shotgun_fire",
         "silencedFire": "cgm:shotgun_fire_silenced"

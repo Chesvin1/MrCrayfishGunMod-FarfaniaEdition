@@ -34,13 +34,10 @@
             "zOffset": -1.0
         },
         "attachments": {
-            "scope": {
-                "yOffset": 4.48,
-                "zOffset": 5
-            },
             "barrel": {
+                "xOffset": 0,
                 "yOffset": 3.8,
-                "zOffset": 0.6,
+                "zOffset": -3,
                 "scale": 0.4
             }
         }

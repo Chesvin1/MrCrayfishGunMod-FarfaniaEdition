@@ -34,6 +34,8 @@ public class ModCrafting
                 new ItemStack(Blocks.REDSTONE_BLOCK, 3));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.ASSAULT_RIFLE),
                 new ItemStack(Blocks.IRON_BLOCK, 7));
+        WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.AUG_A3),
+                new ItemStack(Blocks.IRON_BLOCK, 6));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.PNOVENTA),
                 new ItemStack(Blocks.IRON_BLOCK, 7));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModGuns.PKP_PECHENEG),

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "blocks/concrete_white",
-		"2": "blocks/concrete_gray",
-		"3": "blocks/concrete_silver"
+		"1": "minecraft:blocks/concrete_white",
+		"2": "minecraft:blocks/concrete_gray",
+		"3": "minecraft:blocks/concrete_silver"
 	},
 	"elements": [
 		{
@@ -576,8 +576,8 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [ 0, 0, 0 ],
-			"translation": [ -3.5, 8, 0 ],
-			"scale": [ 0.8, 0.8, 0.8 ]
+			"translation": [ -3.5, 6.5, 0 ],
+			"scale": [ 0.6, 0.6, 0.6 ]
 		},
 		"firstperson_lefthand": {
 			"translation": [0, -9.5, 0],

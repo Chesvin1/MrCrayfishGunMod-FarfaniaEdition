@@ -1,31 +1,33 @@
 {
-    "id": "ak47",
+    "id": "aug_a3",
     "general": {
         "auto": true,
-        "rate": 3,
+        "rate": 4,
         "gripType": "two_handed",
         "maxAmmo": 30,
         "reloadSpeed": 2,
-        "recoilKick": 0.25
+        "recoilKick": 0.15,
+        "recoilDurationOffset": 0.20,
+        "spread": 1
     },
     "projectile": {
         "item": "cgm:basic_ammo",
         "visible": false,
-        "damage": 6.0,
+        "damage": 4.0,
         "size": 0.2,
         "speed": 10.0,
         "life": 10
     },
     "sounds": {
-        "fire": "cgm:assault_rifle_fire",
+        "fire": "cgm:aug_fire",
         "reload": "cgm:pistol_reload",
         "cock": "cgm:shotgun_fire",
         "silencedFire": "cgm:rifle_fire_silenced"
     },
     "display": {
         "flash": {
-            "yOffset": -1,
-            "zOffset": -12
+            "yOffset": 2.7,
+            "zOffset": -7
         }
     },
     "modules": {
@@ -36,9 +38,9 @@
         },
         "attachments": {
             "barrel": {
-                "yOffset": 5.6,
-                "zOffset": -10.25,
-                "scale": 0.4
+                "yOffset": 11.6,
+                "zOffset": -5.25,
+                "scale": 0.3
             }
         }
     }

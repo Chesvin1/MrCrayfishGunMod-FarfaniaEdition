@@ -51,6 +51,9 @@ public class ModGuns
     @GameRegistry.ObjectHolder("cgm:desert_eagle")
     public static final Item DESERT_EAGLE = null;
 
+    @GameRegistry.ObjectHolder("cgm:aug_a3")
+    public static final Item AUG_A3 = null;
+
     @GameRegistry.ObjectHolder("cgm:part")
     public static final Item PARTS = null;
 
@@ -97,6 +100,7 @@ public class ModGuns
         register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "nerf")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
         register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "ak47")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
         register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "desert_eagle")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
+        register(new ItemGun(new ResourceLocation(Reference.MOD_ID, "aug_a3")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
 
         register(new ItemAmmo(new ResourceLocation(Reference.MOD_ID, "basic_ammo")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));
         register(new ItemAmmo(new ResourceLocation(Reference.MOD_ID, "advanced_ammo")).setCreativeTab(MrCrayfishGunMod.GUN_TAB));

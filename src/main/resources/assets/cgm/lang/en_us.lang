@@ -1,4 +1,4 @@
-tile.cgm.workbench.name=Workbench
+tile.cgm.workbench.name=Mesa de trabajo
 
 item.cgm.handgun.name=Pistola
 item.cgm.shotgun.name=Escopeta
@@ -13,19 +13,22 @@ item.cgm.pnoventa.name=P90
 item.cgm.pkp_pecheneg.name=PKP Pecheneg
 item.cgm.recortada.name=Escopeta recortada
 item.cgm.nerf.name=Nerf
+item.cgm.desert_eagle.name=Desert Eagle
+item.cgm.ak47.name=AK-47
+item.cgm.aug_a3.name=AUG A3
 
 item.cgm.basic_ammo.name=Municion basica
 item.cgm.advanced_ammo.name=Municion avanzada
 item.cgm.bala_goma.name=Bala de Nerf
 item.cgm.shell.name=Shell
-item.cgm.grenade.name=Grenada
+item.cgm.grenade.name=Granada
 item.cgm.stun_grenade.name=Granada de aturdimiento
 item.cgm.missile.name=Misil
 
-item.cgm.scope.small.name=Scope (Short)
-item.cgm.scope.medium.name=Scope (Medium)
-item.cgm.scope.long.name=Scope (Long)
-item.cgm.silencer.name=Silencer
+item.cgm.scope.small.name=Mira (Corta)
+item.cgm.scope.medium.name=Mira (Mediana)
+item.cgm.scope.long.name=Mira (Larga)
+item.cgm.silencer.name=Silenciador
 
 itemGroup.tabCGM=MrCrayfish's Gun Mod
 
@@ -35,9 +38,9 @@ death.attack.cgm.bullet.executed=%1$s fue ejecutado por %2$s
 death.attack.cgm.bullet.annihilated=%1$s fue aniquilado por %2$s
 death.attack.cgm.bullet.decimated=%1$s fue decimado por %2$s
 
-info.cgm.damage=Damage: %s
-info.cgm.ammo=Ammo: %s/%s
-info.cgm.ignore_ammo=Infinite Ammo
+info.cgm.damage=Daño: %s
+info.cgm.ammo=Municion: %s/%s
+info.cgm.ignore_ammo=Municion infinita
 
 config.cgm.title=MrCrayfish's Gun Mod Config
 
@@ -138,8 +141,8 @@ key.aim=Aim
 key.reload=Reload
 key.unload=Unload
 
-effect.cgm.blinded=Blinded
-effect.cgm.deafened=Deafened
+effect.cgm.blinded=Cegado
+effect.cgm.deafened=Ensordecido
 
 subtitle.cgm.stun.explosion=Stun grenade explosion
 subtitle.cgm.stun.ring=Ringing
