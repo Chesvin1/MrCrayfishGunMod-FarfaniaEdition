@@ -30,7 +30,7 @@ item.cgm.scope.medium.name=Mira (Mediana)
 item.cgm.scope.long.name=Mira (Larga)
 item.cgm.silencer.name=Silenciador
 
-itemGroup.tabCGM=MrCrayfish's Gun Mod
+itemGroup.tabCGM=MrCrayfish's Gun Mod - Farfania Edition
 
 death.attack.cgm.bullet.killed=%1$s fue abatido por %2$s
 death.attack.cgm.bullet.eliminated=%1$s fue eliminado por %2$s
